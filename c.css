@@ -1,0 +1,39 @@
+		body{
+			/* user-select: none; */
+			/* cursor: none; */
+			width: 96vw;
+			height: 95vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: black;
+			flex-direction: column;
+			font-family: agency fb;
+			font-size: 40px;
+			letter-spacing: 10px;
+		}
+		h1{
+			border: 1px solid #006994;
+			padding: 18px;
+			border-radius: 10px;
+			box-shadow: 6px 0 2px red,-6px 0 2px #00bfff;
+			color: #66ff00;
+			text-shadow: 0 0 10px #66ff00,0 0 30px #66ff00;
+		}
+		h3{
+			animation: change 2.2s infinite alternate;
+		}
+		@keyframes change{
+			0%{
+				color: #FF7F7F;
+				text-shadow: 0 0 10px #FF7F7F,0 0 30px #FF7F7F,0 0 80px #FF7F7F;
+			}
+			50%{
+				color: #00bfff;
+				text-shadow: 0 0 10px #00bfff,0 0 30px #00bfff,0 0 80px #00bfff;
+			}
+			100%{
+				color: #66ff00;
+				text-shadow: 0 0 10px #66ff00,0 0 30px #66ff00,0 0 80px #42a004;
+			}
+		}
